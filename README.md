@@ -2,9 +2,9 @@
 Simple React http API component
   
   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/dig22)
-## Add submodule
+## Add submodule (Fork this repo first)
 ```
-git submodule add git@github.com:dig22/React-http-API.git ./src/services/api/
+git submodule add git@github.com:<your_username>/React-http-API.git ./src/services/api/
 ```
 Import in App.js or App.jsx
 ```
