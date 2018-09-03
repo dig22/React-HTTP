@@ -1,4 +1,4 @@
-# React-http-API
+# React HTTP API
 Simple React http API component
   
   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/dig22)
