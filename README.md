@@ -2,15 +2,16 @@
 Simple React http API component
   
   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/dig22)
-  ## Usage
-  Add Submodule
+## Add submodule
 ```
-    git submodule add git@github.com:dig22/React-http-API.git ./src/services/api/
+git submodule add git@github.com:dig22/React-http-API.git ./src/services/api/
 ```
+Import in App.js or App.jsx
 ```
 import Api from './services/api/api';
 ...
 ```
+  ## Usage
 ```
 var get = await Api.get('get_address' , ['param1','param2' ...] );
 ```
