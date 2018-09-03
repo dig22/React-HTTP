@@ -10,5 +10,5 @@ import Api from './services/api/api';
 var get = await Api.get('get_address' , ['param1','param2' ...] );
 ```
 ```
-var get = await Api.post('post_address' , {data1 :'...' , data2 :'...'} );
+var post = await Api.post('post_address' , {data1 :'...' , data2 :'...'} );
 ```
