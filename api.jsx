@@ -21,7 +21,7 @@ class Api extends Component {
         }
         console.log( endpoint + paramsString);
         let response = await fetch( endpoint + paramsString);
-        return await response   ;
+        return await response.json();
     }
 
     /*
